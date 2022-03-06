@@ -1,0 +1,2359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            cursor: url("cur.png"), auto;
+        }
+        
+        #navbar a {
+            color: black;
+            text-decoration: none;
+            margin-left: 10px;
+        }
+        
+        #navbar a:hover {
+            cursor: pointer;
+            text-decoration: underline red;
+        }
+        
+        #navbar {
+            margin-left: 1400px;
+        }
+        
+        .mySlides {
+            display: none
+        }
+        
+        #line {
+            width: 1px;
+            height: 12px;
+            transform: translateY(2px);
+            margin-left: 9px;
+            background-color: black;
+            margin-right: 5px;
+        }
+        
+        #l1 {
+            width: 1px;
+            height: 12px;
+            transform: translateY(2px);
+            margin-left: 7px;
+            background-color: black;
+            margin-right: 5px;
+        }
+        
+        #l2 {
+            width: 1px;
+            height: 12px;
+            transform: translateY(2px);
+            margin-left: 7px;
+            background-color: black;
+            margin-right: 5px;
+        }
+        
+        #l3 {
+            width: 1px;
+            height: 12px;
+            transform: translateY(2px);
+            margin-left: 7px;
+            background-color: black;
+            margin-right: 5px;
+        }
+        
+        #l4 {
+            width: 1px;
+            height: 12px;
+            transform: translateY(2px);
+            margin-left: 7px;
+            background-color: black;
+            margin-right: 5px;
+        }
+        
+        #l5 {
+            width: 1px;
+            height: 12px;
+            transform: translateY(2px);
+            margin-left: 7px;
+            background-color: black;
+            margin-right: 5px;
+        }
+        
+        #faq a {
+            text-decoration: none;
+            color: rgb(72, 72, 75);
+        }
+        
+        #footer {
+            margin-left: 40%;
+        }
+        
+        #footer_logo {
+            margin-left: 200px;
+        }
+        
+        #btnn {
+            border: none;
+            background: none;
+        }
+        
+        #btn:hover {
+            cursor: pointer;
+        }
+        
+        #mid,
+        #mids {
+            height: 500px;
+        }
+        
+        #faq {
+            display: flex;
+            font-size: small;
+        }
+        
+        #faq a:hover {
+            color: red;
+        }
+        
+        .logos {
+            width: 30px;
+            height: 30px;
+        }
+        
+        .btn1 {
+            border: none;
+            background-color: none;
+        }
+        
+        #follow {
+            display: flex;
+            margin-top: 50px;
+        }
+        
+        #email {
+            width: 400px;
+            height: 40px;
+            border-radius: 30px;
+            background-color: white;
+        }
+        
+        #btn3 {
+            width: 200px;
+            height: 40px;
+            border-radius: 50px;
+            background-color: red;
+            color: white;
+        }
+        
+        #btn3:hover {
+            cursor: pointer;
+            background-color: black;
+        }
+        
+        #sub {
+            background-image: url(https://mcdindia.com/wp-content/uploads/2019/12/french-fries.png);
+            background-size: 770px;
+            background-repeat: no-repeat;
+            width: 100%;
+            border: #ffffff solid 1px;
+            height: 500px;
+            background-image: url(https://mcdindia.com/wp-content/uploads/2020/01/asset-12x.jpg);
+            background-position: left;
+        }
+        
+        #sub123 {
+            margin-left: 100px;
+            margin-top: 100px;
+        }
+        
+        #blank {
+            width: 57%;
+            transform: translateY(-520px);
+            margin-left: 770px;
+            height: 100%;
+            background-image: url(https://www.pngitem.com/pimgs/m/349-3497163_mcdonald-s-happy-de-cajita-feliz-scary-mcdonalds.png);
+            background-repeat: no-repeat;
+            background-size: 700px;
+            background-position: 250px;
+        }
+        
+        #french img {
+            width: 300px;
+            margin-left: 700px;
+            transform: translateY(-50px);
+        }
+        
+        #logoss {
+            transform: translateY(15px);
+            margin-left: 20px;
+        }
+        
+        .logosss {
+            color: black;
+            text-decoration: none;
+        }
+        
+        #l11,
+        #l12,
+        #l13 {
+            margin-left: 10px;
+        }
+        
+        .logosss:hover {
+            color: red;
+        }
+        
+        #insta {
+            width: 35%;
+            height: 600px;
+            background-color: rgb(98, 185, 173);
+        }
+        
+        #insta h1 {
+            margin-left: 50%;
+            margin-top: 35%;
+        }
+        
+        #insta p {
+            margin-left: 49%;
+        }
+        
+        #insta button {
+            margin-left: 48%;
+            width: 150px;
+            height: 40px;
+            background-color: yellow;
+            color: black;
+            border-radius: 50px;
+        }
+        
+        #insta button:hover {
+            cursor: pointer;
+            background-color: black;
+            color: white;
+        }
+        
+        #scroll {
+            display: flex;
+            background-color: rgb(246, 246, 246);
+            margin-top: 50px;
+        }
+        
+        .simg1 {
+            width: 200px;
+            height: 200px;
+            margin-top: 100px;
+            border-radius: 10px;
+        }
+        
+        #scrolling {
+            width: 35%;
+        }
+        
+        .simg {
+            width: 200px;
+            height: 200px;
+            border-radius: 10px;
+        }
+        
+        .simg:hover {
+            cursor: pointer;
+        }
+        
+        #ac:hover {
+            cursor: pointer;
+        }
+        
+        #readmore {
+            display: flex;
+        }
+        
+        #news {
+            margin-left: 200px;
+        }
+        
+        #imgb {
+            background-image: url("https://mcdindia.com/wp-content/uploads/2020/01/asset-12x.jpg");
+        }
+        
+        #text {
+            background-color: #EBEBEC;
+            width: 37%;
+            height: 300px;
+            margin-top: 180px;
+            transform: translateX(-100px);
+        }
+        
+        #text a {
+            text-decoration: none;
+            margin-left: 100px;
+        }
+        
+        #text a h2 {
+            font-size: 30px;
+            margin-left: 100px;
+        }
+        
+        #text p {
+            margin-left: 100px;
+        }
+        
+        #text a h2:hover {
+            cursor: pointer;
+            color: red;
+        }
+        
+        .read:hover {
+            cursor: pointer;
+            color: black;
+        }
+        
+        .read {
+            font-size: 20px;
+            color: red;
+        }
+        
+        #text p:hover {
+            cursor: default;
+        }
+        
+        #lnews {
+            display: flex;
+            margin-top: 350px;
+            width: 78%;
+            margin-left: 200px;
+        }
+        
+        .limg {
+            width: 350px;
+            transform: translateY(55px);
+            height: 200px;
+        }
+        
+        .lllnews {
+            background-color: rgb(244, 187, 9);
+            height: 200px;
+            width: 348px;
+        }
+        
+        .lllnews a {
+            text-decoration: none;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        
+        #latestnews {
+            font-size: 15px;
+            font-weight: bold;
+            width: 100%;
+            margin-left: 20px;
+            margin-top: 45px;
+            margin-bottom: 70px;
+        }
+        
+        #latestnews a {
+            text-decoration: none;
+            color: black;
+            margin-top: 50px;
+        }
+        
+        #lnews button {
+            transform: translateY(15px);
+            height: 40px;
+            width: 130px;
+            background-color: red;
+            color: #EBEBEC;
+            font-weight: bold;
+        }
+        
+        #lnews button:hover {
+            cursor: pointer;
+        }
+        
+        .limg:hover {
+            cursor: pointer;
+        }
+        
+        #bigdiv {
+            background-image: url();
+        }
+        
+        #deliver {
+            background-color: #F4BB09;
+            display: flex;
+            height: 700px;
+        }
+        
+        .dimg {
+            width: 50px;
+            height: 50px;
+            margin-left: 20px;
+        }
+        
+        #dimgs {
+            display: flex;
+        }
+        
+        #dtext {
+            height: 530px;
+            background-color: white;
+            margin-top: 110px;
+            width: 50%;
+            height: 589px;
+        }
+        
+        #dimg1 {
+            height: 30px;
+            width: 30px;
+            margin-top: 10px;
+        }
+        
+        #divtext {
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+        
+        .divtext {
+            margin-left: 100px;
+        }
+        
+        #divtext button {
+            width: 250px;
+            height: 50px;
+            background-color: rgb(222, 71, 23);
+            border: none;
+            border-radius: 50px;
+        }
+        
+        #divtext button:hover {
+            cursor: pointer;
+            color: white;
+        }
+        
+        #bike {
+            margin: auto;
+            margin-top: 90px;
+            width: 50%;
+        }
+        
+        #bike img {
+            margin-left: 20%;
+            height: 605px;
+        }
+        
+        #city {
+            height: 700px;
+            display: flex;
+        }
+        
+        #happy_1 {
+            border: 1px solid rgb(244, 187, 9);
+            width: 170%;
+            background-color: #EBEBEC;
+            height: 700px;
+        }
+        
+        #happy_div {
+            background-color: rgb(244, 187, 9);
+            display: flex;
+            margin-top: 400px;
+        }
+        
+        .img {
+            margin-left: 150px;
+        }
+        
+        #class {
+            margin-top: 100px;
+        }
+        
+        #para {
+            color: red;
+            font-weight: bolder;
+        }
+        
+        #play {
+            width: 150px;
+            margin-left: 130px;
+        }
+        
+        #ani {
+            width: 400px;
+            height: 500px;
+        }
+        
+        .play1 {
+            width: 120px;
+        }
+        
+        .play1:hover {
+            cursor: pointer;
+        }
+        
+        .imgsss {
+            width: 300px;
+            margin-left: 110px;
+        }
+        
+        .imgssss {
+            width: 300px;
+            margin-left: 300px;
+            margin-top: 40px;
+        }
+        
+        #h3 {
+            color: red;
+            margin-left: 70px;
+        }
+        
+        #imgsflex {
+            display: flex;
+            background-image: url(https://mcdindia.com/wp-content/uploads/2020/05/bg-happy-meal-app2x-1024x643.jpg);
+            margin-left: 150px;
+        }
+        
+        #im {
+            transform: translateX(-150px);
+        }
+        
+        #playstore {
+            margin-left: 50px;
+        }
+        
+        #imgs {
+            display: flex;
+        }
+        
+        #divflex {
+            display: flex;
+        }
+        
+        .imgtext {
+            transform: translateX(200px);
+        }
+        
+        .imgtextt {
+            transform: translateX(400px);
+        }
+        
+        .imgtexttt {
+            transform: translateX(250px);
+        }
+        
+        #classes {
+            width: 135px;
+        }
+        
+        #bsdb {
+            display: flex;
+            margin-left: 240px;
+        }
+        
+        .hline {
+            border: 1px solid red;
+        }
+        
+        .color {
+            color: #b7b7b7;
+        }
+        
+        .regi {
+            color: black;
+            font-weight: bolder;
+            margin-top: 10px;
+            border: 1px solid red;
+            width: 75%;
+            text-align: center;
+            border-radius: 0px 0px 20px 0px;
+            background-color: #F4BB09;
+            font-size: 30px;
+            margin-top: 50px;
+        }
+        
+        #never {
+            color: rgb(182, 154, 129);
+            margin-left: 240px;
+            margin-top: 30px;
+            font-size: 20px;
+        }
+        
+        #serving {
+            font-weight: bolder;
+            margin-left: 240px;
+            margin-top: 20px;
+        }
+        
+        #gm {
+            margin-top: 20px;
+        }
+        
+        #golden {
+            margin-left: 240px;
+            margin-top: 20px;
+            font-size: 17px;
+        }
+        
+        .milk {
+            margin-left: 240px;
+        }
+        
+        #contai {
+            color: red;
+            margin-left: 240px;
+            margin-top: 20px;
+        }
+        
+        #cal {
+            display: flex;
+            gap: 30px;
+            background-color: rgb(221, 71, 23);
+            border: 1px solid yellow;
+            width: 60%;
+            margin-left: 230px;
+            justify-content: center;
+            border-radius: 50px;
+            margin-top: 20px;
+        }
+        
+        .boxcal {
+            border: 1px solid #ffffff;
+            border: 1px solid black;
+            height: 10px;
+            margin-top: 10px;
+        }
+        
+        #buger {
+            width: 100px;
+            height: 100px;
+        }
+        
+        #classflex {
+            display: flex;
+        }
+        
+        #imgleft {
+            width: 500px;
+            height: 300px;
+            margin-left: 200px;
+        }
+        
+        #imgleft img {
+            width: 500px;
+            height: 300px;
+        }
+        
+        #bbb {
+            border: 1px solid red;
+            width: 50%;
+            height: 700px;
+        }
+        
+        #secmain {
+            display: flex;
+            border: 1px rgb(17, 8, 8) solid;
+        }
+        
+        #buger {
+            width: 100%;
+            height: 600px;
+            display: flex;
+        }
+        
+        .burg {
+            width: 150px;
+            height: 50px;
+            margin-left: 30px;
+            font-size: 13px;
+            background-color: #ffffff;
+            border: none;
+        }
+        
+        .burg:hover {
+            text-decoration: underline;
+            color: red;
+            cursor: pointer;
+        }
+        
+        #right {
+            margin-left: 30px;
+        }
+        
+        #homediv {
+            width: 100%;
+            height: 600px;
+            display: flex;
+        }
+        
+        .homesub {
+            width: 50%;
+            height: 600px;
+            text-align: center;
+        }
+        
+        .homesub h1 {
+            margin-top: 150px;
+        }
+        
+        #btn,
+        #btn1 {
+            width: 70px;
+            height: 70px;
+            background-color: white;
+            border-radius: 50px;
+            color: red;
+            border: 1px solid white;
+            font-size: 40px;
+        }
+        
+        #btn {
+            border: 1px solid red;
+            color: rgb(248, 7, 7);
+        }
+        
+        #btn:hover {
+            background-color: red;
+            color: white;
+        }
+        
+        #btn1 {
+            background-color: white;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        
+        #btn1:hover {
+            cursor: pointer;
+            background-color: red;
+            color: white;
+        }
+        
+        #otherone {
+            width: 100%;
+            height: 120px;
+            margin-top: 15px;
+            display: flex;
+            margin-bottom: 50px;
+        }
+        
+        .imgs123 {
+            width: 40px;
+            height: 50px;
+            margin-left: 60px;
+            margin-top: 30px;
+        }
+        
+        .img1234 {
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            margin-left: 100px;
+            width: 300px;
+            font-size: 15px;
+        }
+        
+        .img1234:hover {
+            cursor: pointer;
+        }
+        
+        .h3text {
+            transform: translateY(-50px);
+        }
+        
+        .h3textt {
+            margin-left: 60px;
+        }
+        
+        #btnnn {
+            margin-left: 100px;
+            width: 280px;
+        }
+        
+        #btnnn button {
+            margin-top: 35px;
+            font-size: 30px;
+            margin-left: 50px;
+        }
+        
+        #h3texttttt {
+            transform: translateX(130px);
+            transform: translateY(-50px);
+            margin-left: 120px;
+        }
+        
+        #h3textttt {
+            transform: translateX(130px);
+            transform: translateY(-50px);
+            margin-left: 150px;
+        }
+        
+        #h3texttt {
+            margin-left: 100px;
+            font-size: 15px;
+        }
+        
+        #img12344 {
+            transform: translateX(-40px);
+        }
+        
+        #formflex {
+            display: flex;
+        }
+        
+        .vertical {
+            margin-top: 10px;
+            margin-left: 5px;
+        }
+        
+        #rightt {
+            display: flex;
+            background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/1200px-McDonald%27s_Golden_Arches.svg.png);
+            width: 100%;
+        }
+        
+        #rightttt {
+            transform: translateY(150px);
+            transform: translateX(50px);
+            margin-top: 100px;
+            width: 60%;
+            font-size: 25px;
+        }
+        
+        #righttt {
+            width: 100%;
+        }
+        
+        #pets {
+            display: flex;
+            margin-left: 330px;
+            transform: translateY(200px);
+        }
+        
+        .pet {
+            width: 200px;
+            height: 400px;
+            margin-left: 50px;
+        }
+        
+        #petsbtn {
+            display: flex;
+            height: 20px;
+        }
+        
+        #petsbtn {
+            transform: translateX(600px);
+            margin-top: -150px;
+        }
+        
+        .petbtnn {
+            border: 1px solid rgb(10, 10, 10);
+            width: 70px;
+            height: 70px;
+            border-radius: 50px;
+            margin-left: 15px;
+        }
+        
+        #pet2 {
+            background-color: black;
+            color: #ffffff;
+        }
+        
+        #pet1 {
+            background-color: #F4BB09;
+        }
+        
+        #cars {
+            width: 400px;
+            height: 30px;
+            margin-left: 50px;
+        }
+        
+        #location12 {
+            transform: translateY(80px);
+            margin-left: -440px;
+            height: 30px;
+            border: #b7b7b7 solid 1px;
+            width: 40px;
+        }
+        
+        #celebret {
+            height: 350px;
+            transform: translateY(200px);
+            margin-left: -200px;
+            margin-top: 100px;
+        }
+        
+        #imgback {
+            width: 100%;
+            background-image: url(https://randfonteinherald.co.za/wp-content/uploads/sites/3/2014/09/Happy_500mmx500mm-Medium.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 50%;
+        }
+        
+        #selectcity {
+            width: 30%;
+        }
+        
+        #celeee {
+            border: 1px solid rgb(13, 69, 189);
+            width: 200px;
+            transform: translateX(-150px);
+        }
+        
+        #all_imgs div {
+            margin-top: 70px;
+        }
+        
+        #allimgs_1 {
+            transform: translateX(100px);
+            transform: translateY(-682px);
+            margin-left: 1250px;
+            width: 150px;
+        }
+        
+        #allimgs_1 div {
+            margin-top: 47px;
+        }
+        
+        #yoursize {
+            margin-left: 240px;
+        }
+        
+        .yoursize button {
+            border: 1px solid red;
+            margin-left: 30px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50px;
+        }
+        
+        #smallr {
+            display: flex;
+        }
+        
+        #smallr div {
+            margin-left: 35px;
+            margin-top: 10px;
+        }
+        
+        #homediv {
+            background-color: rgb(244, 187, 9);
+        }
+        
+        #h3btn,
+        #h3btnn {
+            width: 50px;
+            height: 50px;
+            border-radius: 100px;
+        }
+        
+        #h3btnn {
+            background-color: black;
+            color: #ffffff;
+        }
+        
+        #h3btn {
+            background-color: #ffffff;
+            border: 1px solid black;
+        }
+        
+        #homediv {
+            margin-top: 20px;
+        }
+        
+        #box {
+            border: 1px solid red;
+            width: 200px;
+            height: 100px;
+            margin-left: 110px;
+            transform: translateY(-55px);
+            font-size: 20px;
+            background-color: red;
+            border-radius: 25px;
+        }
+        
+        #box h4 {
+            margin-left: 10px;
+            color: #ffffff;
+        }
+        
+        .arrow-left {
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+            border-right: 10px solid rgb(224, 11, 11);
+            margin-left: 100px;
+        }
+        
+        #bigdivu {
+            transform: translateX(350px);
+            margin-top: -30px;
+        }
+        
+        .barbie {
+            border: 1px solid red;
+            height: 30px;
+            border-radius: 25px;
+            background-color: red;
+            color: #ffffff;
+            width: 130px;
+            transform: translateY(350px);
+            margin-left: -150px;
+            text-align: center;
+        }
+        
+        #imgbbb {
+            width: 900px;
+        }
+        
+        @media only screen and (min-width: 0px) and (max-width: 820px) {
+            body {
+                justify-content: none
+            }
+            #navbar {
+                display: none;
+            }
+            #nav {
+                width: 70%;
+            }
+            #formflex {
+                width: 80%;
+            }
+            .burg {
+                font-size: 10px;
+            }
+            #mc1 {
+                width: 50%;
+            }
+            #never {
+                margin-left: 30px;
+            }
+            #golden {
+                margin-left: 30px;
+                font-size: 12px;
+            }
+            #size {
+                margin-left: -210px;
+            }
+            #contai,
+            #milk {
+                margin-left: 30px;
+            }
+            #cal {
+                border: 2px solid rgb(0, 68, 255);
+                width: 50%;
+                font-size: 12px;
+                margin-left: 30px;
+            }
+            #imgfor {
+                width: 150px;
+                transform: translateY(200px);
+                margin-left: -350px;
+                background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/1200px-McDonald%27s_Golden_Arches.svg.png);
+                background-size: 100px;
+                background-repeat: no-repeat;
+                background-position-y: -10px;
+            }
+            #rightttt {
+                width: 90px;
+                box-shadow: rgba(246, 246, 250, 0.2) 0px 7px 29px 0px;
+                background-color: #ffffff;
+                transform: translateY(90px);
+                margin-left: -250px;
+            }
+            #rightttt h3 {
+                font-size: 14px;
+            }
+            #ingred {
+                font-size: 10px;
+            }
+            #rightt {
+                background-image: none;
+            }
+            .img1234 {
+                display: none;
+            }
+            #btnnn {
+                width: 26%;
+                height: 100px;
+                transform: translateY(-200px);
+                margin-left: 30px;
+            }
+            #h3btn {
+                border: 1px solid red;
+                background-color: red;
+                color: white;
+                width: 15%;
+                height: 35px;
+            }
+            #threeimg {
+                height: 400px;
+                transform: translateY(600px);
+                margin-left: -550px;
+                width: 800px;
+            }
+            .imgsss,
+            .imgssss {
+                width: 150px;
+            }
+            .imgtext,
+            .imgtextt,
+            .imgtexttt {
+                font-size: 15px;
+            }
+            .imgtextt,
+            .imgtextt {
+                margin-left: -40px;
+            }
+            .imgtexttt {
+                margin-left: -40px;
+            }
+            .imgtext {
+                margin-left: -30px;
+            }
+            #totalplay {
+                margin-left: -30px;
+                transform: translateY(-200px);
+                width: 350px;
+            }
+            #imgsflex {
+                background-image: none;
+            }
+            .img {
+                margin-left: 10px;
+            }
+            #petsbtn {
+                height: 80px;
+                transform: translateY(100px);
+                margin-top: -250px;
+            }
+            #pet1 {
+                width: 50px;
+                height: 50px;
+            }
+            #pet2 {
+                width: 60px;
+                height: 60px;
+            }
+            #pet5,
+            #pet8 {
+                display: none;
+            }
+            #pet3 {
+                transform: translateX(-300px);
+            }
+            #pet6 {
+                margin-left: -450px;
+            }
+            #selectcity {
+                width: 55.8%;
+            }
+            #allimgs_1 {
+                display: none;
+            }
+            #imgback {
+                background-image: none;
+                margin-left: 100px;
+                background-image: url(https://consumerist.com/consumermediallc.files.wordpress.com/2014/05/happy.png);
+                background-position: 140px;
+                background-size: 150px;
+            }
+            #bike img {
+                width: 300px;
+            }
+            #deliver {
+                width: 100%;
+            }
+            #bigdiv {
+                width: 160%;
+            }
+            #news h1 {
+                margin-left: -190px;
+                font-size: 20px;
+            }
+            #imgb {
+                transform: translateY(-0px);
+                margin-left: -140px;
+            }
+            #imgbbb {
+                width: 700px;
+            }
+            #text {
+                font-size: 10px;
+                transform: translateY(350px);
+                margin-left: -500px;
+                background-image: url(https://mcdindia.com/wp-content/uploads/2020/05/bg-happy-meal-app2x.jpg);
+            }
+            #text a #h2text {
+                font-size: 20px;
+                margin-left: -0.1px;
+            }
+            #text #ptext {
+                margin-left: -0.3px;
+                font-size: 12px;
+            }
+            #text .read {
+                margin-left: -0.3px;
+            }
+            #lnews {
+                width: 130%;
+                height: 1100px;
+                margin-left: -0.3px;
+                background-image: url(https://mcdindia.com/wp-content/uploads/2020/05/bg-happy-meal-app2x.jpg);
+            }
+            #lastin {
+                height: 470px;
+                transform: translateY(470px);
+                margin-left: -700px;
+            }
+            #latestnews {
+                font-size: 10px;
+            }
+            #latestnews hr {
+                width: 230px;
+                transform: translateX(130px);
+            }
+            #latestnews #lp {
+                transform: translateX(350px);
+            }
+            #latestnews #lpp {
+                transform: translateX(350px);
+            }
+            #latestnews #lppp {
+                transform: translateX(350px);
+            }
+            #latestnews .lph5 {
+                transform: translateX(350px);
+            }
+            #latestnews #lpppp {
+                transform: translateX(350px);
+            }
+            #scroll {
+                width: 130%;
+            }
+            #sub {
+                width: 50%;
+            }
+            #email {
+                width: 200px;
+                height: 30px;
+            }
+            #btn3 {
+                width: 100px;
+                margin-left: 50px;
+                height: 30px;
+            }
+            #follow {
+                width: 250px;
+            }
+            #french {
+                display: none;
+            }
+            #blank {
+                background-image: url(https://www.pngitem.com/pimgs/m/349-3497163_mcdonald-s-happy-de-cajita-feliz-scary-mcdonalds.png);
+                background-size: 300px;
+                background-position: center;
+                transform: translateX(-300px);
+                margin-top: -400px;
+            }
+            #footer {
+                transform: translateX(-250px) width: 600px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="nav">
+        <div id="nav_1">
+            <img src="https://mcdindia.com/wp-content/uploads/2020/01/m-logo-big.svg" alt="">
+            <div id="navbar">
+                <a href="">Menu</a>
+                <a href=""> Happpy Meal</a>
+                <a href="">Restaurants</a>
+                <a href="">McDelivery</a>
+                <a href="">News</a>
+            </div>
+
+        </div>
+        <div id="homediv">
+            <div class="homesub">
+                <h1 id="main_h1">All New <br> Dil Se Makhani <br> Burgers</h1>
+                <div>
+                    <button id="btn" onclick="fun7()"> < </button>
+                    <button id="btn1" onclick="fun8() "> > </button>
+                </div>
+            </div>
+            <div class="homesub" id="ggg">
+                <img width="100%" height="100%" id="mainimgs" src="https://scontent.cdninstagram.com/v/t51.2885-15/274967698_669708661038374_4526178235587647686_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=AdJqr2OjjFAAX8MPFm8&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_a4I6mm7W7kDaoYNrmbMPID3WjBD99TpFkQFI3Nv0AIQ&oe=6223968E"
+                    alt="">
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <!--cusor img-->
+    <!-- https://mcdindia.com/wp-content/uploads/2020/11/mc-cursor-2.png -->
+
+
+
+
+
+
+
+
+
+
+
+    <div id="buger">
+        <div id="left">
+            <div>
+                <form id="formflex">
+                    <button class="burg" onclick="fun1()">BURGERS & WRAPS</button>
+                    <div class="vertical"></div>
+                    <button class="burg" onclick="fun2()">SNACKS & SIDES</button>
+                    <div class="vertical"></div>
+                    <button class="burg" onclick="fun3()">DESSERTS</button>
+                    <div class="vertical"></div>
+                    <button class="burg" onclick="fun4()">BEVERAGES</button>
+                </form>
+                <div class="regi" id="mc1">McAloo Tikki Burger®</div>
+                <div id="never">The one that never goes out of f(l)avour.</div>
+                <div id="golden">A golden fried vegetarian patty prepared with peas, potato and infused with <br> aromatic spices. Clubbed with sliced tomatoes, shredded red onion, and <br> tangy tomato mayonnaise. Served in a warm toasted bun.
+                </div>
+                <div style="display: flex; " id="size">
+                    <div id="serving">Serving Size:</div>
+                    <div id="gm">146gm</div>
+                </div>
+                <div id="contai">Allergen Warning! Contains:
+                </div>
+                <div class="milk" id="milk">Gluten, Milk and/or Milk products, Soybean derivatives
+                </div>
+            </div>
+
+
+
+            <!-- <div id="yoursize">
+                <div class="yoursize">
+                    <h2>Change your size</h2>
+                    <button onclick="fun91()">S</button>
+                    <button onclick="fun77()">R</button>
+                    <div id="smallr">
+                        <div>Small</div>
+                        <div>Regular</div>
+                    </div>
+
+                </div>
+            </div> -->
+
+
+
+            <div id="cal">
+                <div>Calories <br><span id="calo">334 kCal</span> </div>
+                <div class="boxcal"></div>
+                <div>Protein <br> <span id="prote">7gm</span>
+                </div>
+                <div class="boxcal"></div>
+                <div>Fats <br><span id="fats">12gm</span>
+                </div>
+                <div class="boxcal"></div>
+                <div>Carbs <br><span id="carbs">50gm</span>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+        <!-- right divs -->
+        <div id="rightt">
+            <div id="right">
+                <img id="imgfor" src="https://mcdindia.com/wp-content/uploads/2020/02/2.1-mcaloo-tikki-cheese.png" alt="">
+            </div>
+            <div id="righttt">
+                <div id="rightttt">
+                    <h3>Ingredients</h3>
+                    <p id="ingred">Regular bun crown, <br> Tom-Mayo sauce, <br> Sliced tomatoes, <br> Shredded onion, <br> Aloo tikki patty, <br> Regular bun heel</p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div id="otherone">
+        <div onclick="fun100()" class="img1234"><img class="imgs123" id="img12344" src="https://mcdindia.com/wp-content/uploads/2022/01/chicken-2.png" alt="">
+            <h3 class="h3textt" id="h3texttt" style="transform: translateY(-50px);"> Grilled Butter Chicken Burger</h3>
+        </div>
+        <div onclick="fun200()" class="img1234"><img class="imgs123" id="img12345" src="https://mcdindia.com/wp-content/uploads/2020/02/2.6-mcspicy-paneer-single.png" alt="">
+            <h3 class="h3text" id="h3textttt">McSpicy Paneer</h3>
+        </div>
+        <div onclick="fun300()" class="img1234"><img class="imgs123" id="img123456" src="https://mcdindia.com/wp-content/uploads/2022/01/masala-dosa-burger-1.png" alt="">
+            <h3 class="h3text" id="h3texttttt">Dosa Masala Burger</h3>
+        </div>
+        <div id="btnnn">
+            <button id="h3btn" onclick="fun11()"> < </button>
+            <button id="h3btnn" onclick="fun10()"> > </button>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="imgsflex">
+        <div id="totalplay">
+            <img id="play" src="https://mcdindia.com/wp-content/uploads/2020/05/happy-meal-logo2x-compressor.png" alt="">
+            <div id="ani">
+                <!-- <video style="width: 100%; height:100%" src="https://mcdindia.b-cdn.net/app-download.mp4"></video>
+                <source style="width: 100%; height:100%" src="https://mcdindia.b-cdn.net/app-download.mp4" type="video/mp4"> -->
+                <video style="width: 100%; height:100%" autoplay="autoplay">
+                <source src="/day1/ani.mp4" type="video/mp4">        
+                </video>
+
+
+
+            </div>
+            <h3 id="h3">DOWLOAD APP FROM</h3>
+            <div id="playstore">
+                <a href="https://apps.apple.com/sg/app/mcdonalds-happy-meal-app-asia/id1209978668"><img class="play1" src="https://mcdindia.com/wp-content/uploads/2020/05/app-store2x.png" alt=""></a>
+                <a href="https://play.google.com/store/apps/details?id=com.mcdonalds.happystudio.apac&hl=en_IN"><img class="play1" id="classes" src="https://mcdindia.com/wp-content/uploads/2020/05/play-store2x.png" alt=""></a>
+            </div>
+
+        </div>
+        <div id="threeimg">
+            <div id="imgs">
+                <div>
+                    <img class="imgsss" src="https://mcdindia.com/wp-content/uploads/2020/05/screen-12x-compressor.png" alt="">
+                    <h2 class="imgtext"> <span style="color: red;">Discover</span> <br> <span style="color: red;"> your kid’s</span> <br> <span style="color: #F4BB09;">musical talent</span></h2>
+                </div>
+                <div>
+                    <img class="imgsss" src="https://mcdindia.com/wp-content/uploads/2020/05/screen-22x-compressor.png" alt="">
+                    <h2 class="imgtext"> <span style="color: #F4BB09;">Create</span> <br> <span style="color:red">happy moments</span> <br> <span style="color: #F4BB09;">with your</span> <span style="color: red;">little ones</span></h2>
+                </div>
+                <div>
+                    <img class="imgsss" src="https://mcdindia.com/wp-content/uploads/2020/05/screen-32x-compressor.png" alt="">
+                    <h2 class="imgtext"> <span style="color: #F4BB09;">Explore our</span> <br> <span style="color: red;">animated books</span> <br> <span style="color: #F4BB09;">with your kid</span></h2>
+                </div>
+
+
+            </div>
+            <div id="divflex">
+                <div>
+                    <img class="imgssss" src="https://mcdindia.com/wp-content/uploads/2020/05/screen-42x-compressor.png" alt="">
+                    <h2 class="imgtextt"> <span style="color: red;">Discover our <br> collection of</span> <br> <span style="color:#F4BB09">interactive books</span></h2>
+                </div>
+                <div>
+                    <img class="imgssss" id="im" src="https://mcdindia.com/wp-content/uploads/2020/05/screen-52x-compressor.png" alt="">
+                    <h2 class="imgtexttt"> <span style="color: red;">Discover our <br> books as they</span> <br> <span style="color: #F4BB09;">come to life</span></h2>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div id="happy_div">
+        <div id="happy">
+            <div id="happy_1">
+                <div id="class">
+                    <img class="img" src="https://mcdindia.com/wp-content/uploads/2020/02/happy-meal.svg" alt="">
+                    <h1 class="img">Don’t worry, <br> Eat Happy</h1>
+                    <p class="img" id="para">Now every meal can be a Happy Meal</p>
+                    <p class="img">Regardless of your age, McDonald’s promises to invoke the innocence and joy of<br> childhood with our Happy Meals. So, whether you’re with a child, yourself one, or simply<br> passionate about collecting every toy possible, don’t hold
+                        back. There’s a new, joyous<br> surprise for you every month. Start collecting now!</p>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+        <div id="pets">
+            <div id="petsbtn">
+                <button onclick="fun400()" class="petbtnn" id="pet1"><</button>
+                <button onclick="fun500()" class="petbtnn" id="pet2">></button>
+            </div>
+            <img class="pet" id="pet3" src="https://mcdindia.com/wp-content/uploads/2021/11/pet-vet-barbie.jpg" alt="">
+            <h4 class="barbie" id="pet6">Pet Vet Barbie</h4>
+            <img class="pet" id="pet4" src="https://mcdindia.com/wp-content/uploads/2021/11/princess-barbie.jpg" alt="">
+            <h4 class="barbie" id="pet7">princess Barbie</h4>
+            <img class="pet" id="pet5" src="https://mcdindia.com/wp-content/uploads/2021/11/racer-barbie.jpg" alt="">
+            <h4 class="barbie" id="pet8">Racer Car Barbie</h4>
+
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="city">
+        <div id="selectcity">
+            <h1>Select City</h1>
+            <select name="cars" id="cars">
+                <option value="selet" id="sell">select City</option>
+                <option value="volvo">Andhra Pradesh</option>
+                <option value="saab">chittoor</option>
+                <option value="opel">Gannavaram</option>
+                <option value="audi">palamaner</option>
+                <option value="volvoq">tamilnadu</option>
+                <option value="saabqq">karnataka</option>
+                <option value="opelqqq">uttar Pradesh</option>
+                <option value="audiqqqq">avadi</option>
+                <option value="volvoqqqq">panjab</option>
+                <option value="saabqqqqqqqq">odissa</option>
+                <option value="opelqqqqqqqqqq">tirupati</option>
+                <option value="audiqqqqqqqqqqqq">kerala</option>
+              </select>
+
+            <div id="bigdivu">
+                <div class="arrow-left"></div>
+                <div id="box">
+                    <h4>Please select a city <br>to find the neaarest <br>McDonald's store</h4>
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div><img width="40px" id="location12" src="https://thumbs.dreamstime.com/b/thin-line-google-map-pin-point-location-icon-white-background-98117839.jpg" alt=""></div>
+        <div id="celebret">
+            <img id="celeee" src="https://mcdindia.com/wp-content/uploads/2020/02/happy-meal-celebration.svg" alt="">
+
+        </div>
+        <div id="imgback">
+            <img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt="">
+            <img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt="">
+            <img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt="">
+            <div id="all_imgs">
+                <div id="one_1">
+                    <img width="50px" class="one_1" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" class="one_1" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px"
+                        class="one_1" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt="">
+                </div>
+                <div id="two_2">
+                    <img width="50px" class="one_2" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" class="one_2" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px"
+                        class="one_2" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt="">
+                </div>
+                <div id="thr_3">
+                    <img width="50px" class="one_3" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" class="one_3" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px"
+                        class="one_3" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt="">
+                </div>
+                <div id="four_4">
+                    <img width="50px" class="one_4" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" class="one_4" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px"
+                        class="one_4" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt="">
+                </div>
+                <div id="five_5">
+                    <img width="50px" class="one_5" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" class="one_5" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px"
+                        class="one_5" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt="">
+                </div>
+                <div id="six_6">
+                    <img width="50px" class="one_6" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" class="one_6" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px"
+                        class="one_6" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt="">
+                </div>
+            </div>
+            <div id="allimgs_1">
+                <div>
+                    <img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg"
+                        alt="">
+                </div>
+                <div>
+                    <img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg"
+                        alt="">
+                </div>
+                <div>
+                    <img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg"
+                        alt="">
+                </div>
+                <div>
+                    <img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg"
+                        alt="">
+                </div>
+                <div>
+                    <img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg"
+                        alt="">
+                </div>
+                <div>
+                    <img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg"
+                        alt="">
+                </div>
+                <div>
+                    <img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg"
+                        alt="">
+                </div>
+                <div>
+                    <img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg" alt=""><img width="50px" src="https://c3.thejournal.ie/media/2014/05/happy-happymeal-752x501.jpg"
+                        alt="">
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="deliver">
+        <div id="dtext">
+            <div id="divtext">
+                <img src="https://mcdindia.com/wp-content/uploads/2019/12/logo-mcdelivery.svg" alt="">
+                <h1>Order for Home-Delivered Smiles</h1>
+                <p>We deliver to your doorstep</p>
+                <p>McDelivery allows you to experience delicious McDonald’s food from the comfort of your<br> sofa at home or cubicle in office. All orders are delivered quickly and efficiently, allowing<br> you the peace of mind to know that smiles-inducing
+                    food is never too far.</p>
+                <button>ORDER NOW</button>
+            </div>
+            <div id="dimgs" class="divtext">
+                <h4>Now also on:</h4>
+                <img class="dimg" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fbestmediainfo.com%2Ftimthumb.php%3Fsrc%3D%2Fwp-content%2Fuploads%2F2019%2F09%2FSwiggy_2.jpg%26w%3D620%26h%3D350%26zc%3D1%26q%3D100&f=1&nofb=1" alt="">
+                <img class="dimg" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fsecurecdn.pymnts.com%2Fwp-content%2Fuploads%2F2020%2F02%2FScore-Card-Company-Image-56.png&f=1&nofb=1" alt="">
+                <img class="dimg" id="dimg1" src="logo.jpeg" alt="">
+            </div>
+
+
+        </div>
+        <div id="bike">
+            <img src="dbike.jpeg" alt="">
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="bigdiv">
+        <div id="news">
+            <h1>News & Highlights</h1>
+            <div id="readmore">
+                <div id="imgb">
+                    <img id="imgbbb" src="https://mcdindia.com/wp-content/uploads/2020/02/2.10-maharaja-mac-veg.png" alt="">
+                </div>
+                <div id="text">
+                    <a href="http://bwhotelier.businessworld.in/article/McDonald-s-India-introduces-new-Butter-Chicken-and-Butter-Paneer-Grilled-Burgers/22-12-2021-415599/">
+                        <h2 id="h2text">
+                            McDonald’s India introduces new <br> Butter Chicken and Butter <br> Paneer Grilled Burgers
+                        </h2>
+                    </a>
+                    <p id="ptext">Inspired by India’s popular casual dining dishes, McDonald’s India – <br> North and East has added a makhani twist to the menu with the <br> introduction of two new grilled burgers - Butter Chicken and Butter <br> Paneer.
+                    </p>
+                    <a class="read" href="http://bwhotelier.businessworld.in/article/McDonald-s-India-introduces-new-Butter-Chicken-and-Butter-Paneer-Grilled-Burgers/22-12-2021-415599/">Read more</a>
+
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="lnews">
+        <div id="llnews">
+            <img class="limg" src="https://mcdindia.com/wp-content/uploads/2021/12/mcd-post-dec-1.jpg" alt="">
+            <button>NEWS</button>
+            <div class="lllnews">
+                <a href="">
+                    <p>Grab this scrumptious offer and make your <br> happy meal, a true value meal</p>
+                </a>
+                <a style="color: red;" href="">Read more</a>
+            </div>
+        </div>
+        <div>
+            <img class="limg" src="https://mcdindia.com/wp-content/uploads/2021/12/mcd-post-1-1.jpg" alt="">
+            <button>NEWS</button>
+            <div class="lllnews">
+                <a href="">
+                    <p>McDonald’s: Implementing Solutions to <br> Expand the Reduction, Reuse, and Recycling <br> of Guest Packaging</p>
+                </a>
+                <a style="color: red;" href="">Read more</a>
+            </div>
+        </div>
+        <div id="lastin">
+            <img class="limg" src="https://mcdindia.com/wp-content/uploads/2021/12/mcd-post-1.jpg" alt="">
+            <button>NEWS</button>
+            <div class="lllnews">
+                <a href="">
+                    <p>With ’25 Years Of Lovin It’, McDonald’s India –<br> North & East celebrates silver jubilee</p>
+                </a>
+                <a style="color: red;" href="">Read more</a>
+            </div>
+        </div>
+        <div id="latestnews">
+            <p id="lpppp">LATEST NEWS</p>
+            <a href="">
+                <p id="lp">McDonald’s Celebrates 25 Years With Great Deals<br> Priced At Just Rs. 25</p>
+            </a>
+            <h5 class="lph5">December 3,2021</h5>
+            <hr>
+            <a href="">
+                <p id="lpp">McDonalds India launches a contemporary rendition<br> and continuation story of memorable campaign ‘Hum<br> dono boyfriend-girlfriend hai kya’
+                </p>
+            </a>
+            <h5 class="lph5">December 3,2021</h5>
+            <hr>
+            <a href="">
+                <p id="lppp">The crunch in your burger is Iceberg Lettuce, locally<br> produced in Manali and Lahaul districts thanks to<br> McDonald’s
+                </p>
+            </a>
+            <h5 class="lph5">September 15,2021</h5>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="scroll">
+        <div id="insta">
+            <h1>Instagram</h1>
+            <p>@mcdonaldsinindia</p>
+            <button>+FOLLOW</button>
+
+
+        </div>
+        <div id="scrolling">
+            <marquee behavior="scroll" direction="left">
+                <a class="ac" href="https://www.instagram.com/accounts/login/?next=/p/CZlq6ObP4rt/"><img class="simg1" src="https://scontent.cdninstagram.com/v/t51.2885-15/274967698_669708661038374_4526178235587647686_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=AdJqr2OjjFAAX8MPFm8&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9nNYx4DhyENg-kJ_9y_XdzUQIWLtm-A27uY-Ox_S_59A&oe=62278B0E"
+                        alt=""></a>
+                <a class="ac" href="https://www.instagram.com/accounts/login/?next=/p/CZlq6ObP4rt/"><img class="simg1" src="https://scontent.cdninstagram.com/v/t51.29350-15/274902205_128105833069499_8508306043878079498_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=sZtDUq2REKoAX_GX2vF&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9PyUXeAY-21shpD24V7OE047uQX79RNO6hj_AGnv9r5A&oe=62271129"
+                        alt=""></a>
+                <a class="ac" href="https://www.instagram.com/accounts/login/?next=/p/CZlq6ObP4rt/"><img class="simg1" src="https://scontent.cdninstagram.com/v/t51.2885-15/274710220_954723671912573_8542677720038672007_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=2_AOsbU89VkAX_E-2ta&_nc_oc=AQm2wJWiG_Uq7TuzEkPstKPI4US-0wkEx3Wpq8pptO3D6knl_tf79WsxeH-Wugx2Tf0&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8tDZ--oiblu-CKutV85vzcRL8ffrILN7Ugw1UKUyNmuQ&oe=6226C01B"
+                        alt=""></a>
+                <a class="ac" href="https://www.instagram.com/accounts/login/?next=/p/CZlq6ObP4rt/"><img class="simg1" src="https://scontent.cdninstagram.com/v/t51.29350-15/274696217_487593539479032_6460887784596930402_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=S85KcIlUOj8AX-_HP9O&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9S4d2UnYlEQSPHu5Z-3a92Se0Tl0LjQ7QNbu-wtDd4bQ&oe=6225DE8E"
+                        alt=""></a>
+                <a class="ac" href="https://www.instagram.com/accounts/login/?next=/p/CZlq6ObP4rt/"><img class="simg1" src="https://scontent.cdninstagram.com/v/t51.29350-15/274767139_494662358889059_5501055268808853157_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=Q6I8uufg0pwAX82JN4w&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_xlRdPwUQCAEJqLv-_f5aSG_GeKszEl4MYtRLo5O1rpg&oe=6225B59D"
+                        alt=""></a>
+                <a class="ac" href="https://www.instagram.com/accounts/login/?next=/p/CZlq6ObP4rt/"><img class="simg1" src="https://scontent.cdninstagram.com/v/t51.2885-15/274361619_143559661464843_616285629294593338_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=o58NdYrNFusAX9QVPUj&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_WXh2sRfhWWwy6BRKMI63_D7rVAbn4K4PFkyuJmIZYwA&oe=6226B4AF"
+                        alt=""></a>
+
+
+
+
+
+
+            </marquee>
+            <marquee behavior="scroll" direction="right">
+                <a href="https://www.instagram.com/accounts/login/?next=/p/CZlq6ObP4rt/"><img class="simg" src="https://scontent.cdninstagram.com/v/t51.2885-15/274373437_684487715929414_8135030881830093954_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=Llh_lbwn5OMAX_3O8U1&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8FVyTdha8FG0LnYNricCJKH2GtsgfkGGfqBn91hDbweQ&oe=62266EB6"
+                        alt=""></a>
+                <a href="https://www.instagram.com/accounts/login/?next=/p/CZlq6ObP4rt/"><img class="simg" src="https://scontent.cdninstagram.com/v/t51.2885-15/274967698_669708661038374_4526178235587647686_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=AdJqr2OjjFAAX8MPFm8&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9nNYx4DhyENg-kJ_9y_XdzUQIWLtm-A27uY-Ox_S_59A&oe=62278B0E"
+                        alt=""></a>
+                <a href="https://www.instagram.com/accounts/login/?next=/p/CZlq6ObP4rt/"><img class="simg" src="https://scontent.cdninstagram.com/v/t51.2885-15/274258810_1339734169786203_4307336406475154851_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=DOQxPxiz9FsAX9kHcDb&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT8hYeMdpGeYeIPQmo-3Do_tw86fuaPPql-5gvNzYk8-DQ&oe=6226FD47"
+                        alt=""></a>
+
+                <a href="https://www.instagram.com/accounts/login/?next=/p/CZlq6ObP4rt/"><img class="simg" src="https://scontent.cdninstagram.com/v/t51.2885-15/274967698_669708661038374_4526178235587647686_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=AdJqr2OjjFAAX8MPFm8&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9nNYx4DhyENg-kJ_9y_XdzUQIWLtm-A27uY-Ox_S_59A&oe=62278B0E"
+                        alt=""></a>
+
+                <a href="https://www.instagram.com/accounts/login/?next=/p/CZlq6ObP4rt/"><img class="simg" src="https://scontent.cdninstagram.com/v/t51.2885-15/273929653_693363838321481_1875068486086754080_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=C-97Ix_3HzIAX97INkI&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_zbBviciZKJxU-1Pg0oyq6yLm0a105LI6BSzIlZTiVVQ&oe=62263E34"
+                        alt=""></a>
+                <a href="https://www.instagram.com/accounts/login/?next=/p/CZlq6ObP4rt/"><img class="simg" src="https://scontent.cdninstagram.com/v/t51.29350-15/273797430_124154676802600_522719576369167132_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=7NfIsgxKqaEAX81Dnh4&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT9XgA0XXixqlDYIRqY1H3vDqnqvHGsFzuiOe0wmYp6q9A&oe=62266771"
+                        alt=""></a>
+
+
+
+
+
+
+            </marquee>
+
+        </div>
+
+
+    </div>
+    <hr>
+    <div id="sub">
+        <div id="sub123">
+            <h3>
+                Special Offers <br> & News
+            </h3>
+            <p>Subscribe now for news, promotions and <br> more delivered right to your inbox.</p>
+            <div>
+                <input id="email" type="email" required>
+                <button id="btn3">SUBSCRIBE</button>
+            </div>
+            <div id="follow">
+                <h4>Follow us on:</h4>
+                <div id="logoss">
+                    <a class="logosss" id="l11" href="https://www.facebook.com/McDonaldsinIndia/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                              </svg>
+                    </a>
+                    <a class="logosss" id="l12" href="https://www.instagram.com/mcdonaldsinindia/">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                            <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                          </svg>
+                    </a>
+                    <a class="logosss" id="l13" href="https://www.youtube.com/user/McDonaldsinIndia">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                                <path d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.007 2.007 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.007 2.007 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31.4 31.4 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.007 2.007 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A99.788 99.788 0 0 1 7.858 2h.193zM6.4 5.209v4.818l4.157-2.408L6.4 5.209z"/>
+                              </svg>
+                    </a>
+                </div>
+
+                <!-- <button class="btn1"><img class="logos" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.seekpng.com%2Fpng%2Fdetail%2F18-185778_facebook-f-logo-png-transparent-background-facebook-icon.png&f=1&nofb=1" alt=""></button>
+                    <button class="btn1"><img class="logos" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.ME7AXJtgB9fHV_9lNkf5IQHaHa%26pid%3DApi&f=1" alt=""></button>
+                    <button class="btn1"><img class="logos" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.n19cHVf8_m2u6PObqgBTkwHaHa%26pid%3DApi&f=1" alt=""></button> -->
+            </div>
+
+
+        </div>
+        <div id="french">
+            <img src="https://mcdindia.com/wp-content/uploads/2019/12/french-fries.png" alt="">
+        </div>
+        <div id="blank">
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <hr>
+    <div id="footer">
+        <div style="display: flex;">
+            <img src="https://mcdindia.com/wp-content/uploads/2020/01/m-logo-big.svg" alt="">
+            <h2>&copy;</h2>
+            <p style="transform: translateY(10px); margin-left:10px ">2020-21 McDonald's.All Rights Reserved</p>
+        </div>
+        <div>
+            <p>Connaught Plaza Restaurants Private Limited (licensee of McDonald's in North & East India)</p>
+        </div>
+        <div id="faq" style="margin: 10px;">
+            <a href="">FAQ</a>
+            <div id="line"></div>
+            <a href="">TERMS & CONDITIONS</a>
+            <div id="l1"></div>
+
+            <a href="">PRIVACY POLICY</a>
+            <div id="l2"></div>
+
+            <a href="">FEEDBACK</a>
+            <div id="l3"></div>
+
+            <a href="">CAREERS</a>
+            <div id="l4"></div>
+
+            <a href="">CONTACT US</a>
+
+
+        </div>
+        <div>
+            <button id="btnn"><img id="footer_logo" style="width: 70px; " src="https://mcdindia.com/wp-content/uploads/2020/01/mountains.svg" alt=""></button>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+    function fun2() {
+        var x = document.getElementById("mc1").textContent = "Pizza McPuff®"
+        event.preventDefault()
+        var img = document.getElementById("imgfor")
+        img.src = 'https://mcdindia.com/wp-content/uploads/2020/02/3.1-pizza-mcpuff.png'
+        var hh = document.getElementById('never').textContent = 'Something different. Something delicious.'
+        event.preventDefault()
+        var tt = document.getElementById('golden').textContent = 'A blend of assorted vegetables (carrot, beans,capsicum, onion & green peas); mozzarella cheese mixed with tomato sauce; and exotic spices stuffed in rectangle shaped savoury dough. Quick frozen.'
+        event.preventDefault()
+        var yyy = document.getElementById('gm').textContent = '87 gm'
+        var bbb = document.getElementById('calo').textContent = '226kCal'
+        var hhhhh = document.getElementById('prote').textContent = '4gm'
+        var hhhhh = document.getElementById('fats').textContent = '13gm'
+        var ddd = document.getElementById('carbs').textContent = '24gm'
+        var div = document.getElementById('ingred').textContent = 'Assorted vegetables, Refined wheat flour, Pizza seasoning'
+        var jjj = document.getElementById('h3texttt').textContent = 'Our World Famous Fries'
+        var jjjj = document.getElementById('h3textttt').textContent = 'Pizza McPuff'
+        var kkkk = document.getElementById('h3texttttt').textContent = 'Chicken McNuggets'
+        var img888 = document.getElementById('img12344')
+        img888.src = 'https://mcdindia.com/wp-content/uploads/2020/02/3.3-fries.png'
+        var img889 = document.getElementById('img12345')
+        img889.src = 'https://mcdindia.com/wp-content/uploads/2020/02/3.1-pizza-mcpuff.png'
+        var img0 = document.getElementById('img123456')
+        img0.src = 'https://mcdindia.com/wp-content/uploads/2020/02/3.2-6pcs-chicken-nuggets.png'
+        var ele = document.getElementById('yoursize')
+        ele.remove()
+
+
+
+    }
+
+    //function fun1() {
+    //let gms = document.getElementById('yoursize')
+    //gms.remove()
+    //event.preventDefault()
+    //}
+
+
+
+    function fun3() {
+        var y = document.getElementById('mc1').textContent = 'McFlurry (Oreo)®'
+        event.preventDefault()
+        var img1 = document.getElementById('imgfor')
+        img1.src = 'https://mcdindia.com/wp-content/uploads/2020/02/4.1-mcflurry-oreo.png'
+
+
+    }
+
+
+
+    function fun4() {
+        var yyy = document.getElementById('mc1').textContent = 'Black Coffee®'
+        event.preventDefault()
+        var img1111 = document.getElementById('imgfor')
+        img1111.src = 'https://mcdindia.com/wp-content/uploads/2020/03/5.1-coffee-large-1.png'
+        var hh = document.getElementById('never').textContent = ''
+        event.preventDefault()
+        var tt = document.getElementById('golden').textContent = 'Perfectly brewed for any time of the day.'
+        event.preventDefault()
+        var dttt = document.getElementById('contai').textContent = 'Note:'
+        var diii = document.getElementById('milk').textContent = 'Milk tubs and sugar sachets available separately'
+        var yyy = document.getElementById('gm').textContent = '200ml'
+        var bbb = document.getElementById('calo').textContent = '7kCal'
+        var hhhhh = document.getElementById('prote').textContent = '0gm'
+        var hhhhh = document.getElementById('fats').textContent = '0gm'
+        var ddd = document.getElementById('carbs').textContent = '2gm'
+        var div = document.getElementById('ingred').textContent = 'Assorted vegetables, Refined wheat flour, Pizza seasoning'
+        var divjjj = document.getElementById('rightttt').textContent = ''
+
+
+
+
+        var jjj = document.getElementById('h3texttt').textContent = 'Masala Chai'
+        var jjjj = document.getElementById('h3textttt').textContent = 'Black Coffee'
+        var kkkk = document.getElementById('h3texttttt').textContent = 'Cold coffee'
+        var img888 = document.getElementById('img12344')
+        img888.src = 'https://mcdindia.com/wp-content/uploads/2022/01/tea.png'
+        var img889 = document.getElementById('img12345')
+        img889.src = 'https://mcdindia.com/wp-content/uploads/2020/03/5.1-coffee-large-1.png'
+        var img0 = document.getElementById('img123456')
+        img0.src = 'https://mcdindia.com/wp-content/uploads/2022/01/cold-coffee.png'
+        var elee = document.getElementById('yoursize')
+        elee.remove()
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+    function fun8() {
+        var b = document.getElementById("main_h1").textContent =
+            'Happy Meal Nutrition & Fun, all in one '
+        event.preventDefault()
+        var img3 = document.getElementById('mainimgs')
+        img3.src = 'https://mcdindia.com/wp-content/uploads/2021/11/img-1.jpg'
+    }
+
+
+
+
+    function fun7() {
+        var c = document.getElementById("main_h1").textContent = 'value meal for every budget '
+        event.preventDefault()
+        var img11 = document.getElementById('mainimgs')
+        img11.src = 'https://scontent.cdninstagram.com/v/t51.2885-15/273725043_647720816571871_8147681248340339446_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=A4jxVnzAVdQAX9Nwgfn&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_pRF4U9HeVCsliXQGvxkSTuE5dyn7iuzHtYjBo6OqtHA&oe=62248CD3'
+    }
+
+
+
+
+
+    function fun10() {
+        var z = document.getElementById('h3texttt').textContent = 'McAloo Tikki Burger'
+        event.preventDefault()
+        var img4 = document.getElementById('img12344')
+        img4.src = 'https://mcdindia.com/wp-content/uploads/2020/02/2.1-mcaloo-tikki-cheese.png'
+        var u = document.getElementById('h3textttt').textContent = 'McVeggie'
+        event.preventDefault()
+        var img5 = document.getElementById('img12345')
+        img5.src = 'https://mcdindia.com/wp-content/uploads/2020/02/2.3-mc-veggie-single.png'
+        var v = document.getElementById('h3texttttt').textContent = 'Fillet - O - Fish '
+        event.preventDefault()
+        var img6 = document.getElementById('img123456')
+        img6.src = 'https://mcdindia.com/wp-content/uploads/2020/02/2.5-filet-o-fish.png'
+
+    }
+
+
+
+
+    function fun11() {
+        var g = document.getElementById('h3texttt').textContent = 'Grilled Butter Chicken Burger'
+        event.preventDefault()
+        var img7 = document.getElementById('img12344')
+        img7.src = 'https://mcdindia.com/wp-content/uploads/2022/01/chicken-2.png'
+        var m = document.getElementById('h3textttt').textContent = 'McSpicy Paneer'
+        event.preventDefault()
+        var img8 = document.getElementById('img12345')
+        img8.src = 'https://mcdindia.com/wp-content/uploads/2020/02/2.6-mcspicy-paneer-single.png'
+        var mm = document.getElementById('h3texttttt').textContent = 'Dosa Masala Burger'
+        event.preventDefault()
+        var img9 = document.getElementById('img123456')
+        img9.src = 'https://mcdindia.com/wp-content/uploads/2022/01/masala-dosa-burger-1.png'
+    }
+
+
+
+
+
+    function fun100() {
+        var img00 = document.getElementById('imgfor')
+        img00.src = 'https://mcdindia.com/wp-content/uploads/2022/01/chicken-2.png'
+        var ttt = document.getElementById('mc1').textContent = 'Grilled Butter Chicken Burger®'
+        event.preventDefault()
+        var ttg = document.getElementById('never').textContent = 'Dil se makhani burger.'
+        var hh1 = document.getElementById('golden').textContent = 'Premium grilled chicken patty topped with makhani sauce and shredded onions placed between freshly toasted sesame seeded buns.'
+        var hh3 = document.getElementById('gm').textContent = '167gm'
+        var bbb = document.getElementById('calo').textContent = '361.5kCal'
+        var hhhhh = document.getElementById('prote').textContent = '17.8gm'
+        var hhhhh = document.getElementById('fats').textContent = '16.2gm'
+        var ddd = document.getElementById('carbs').textContent = '36gm'
+        var gh = document.getElementById('ingred').textContent = 'Premium grilled chicken patty, Shredded onion, Sesame seeded buns'
+
+    }
+
+    function fun200() {
+        var img77 = document.getElementById('imgfor')
+        img77.src = 'https://mcdindia.com/wp-content/uploads/2020/02/2.6-mcspicy-paneer-single.png'
+        var ttt = document.getElementById('mc1').textContent = 'McSpicy Paneer®'
+        event.preventDefault()
+        var ttg = document.getElementById('never').textContent = 'Let paneer surprise you.'
+        var hh1 = document.getElementById('golden').textContent = 'Crispy and spicy paneer patty with creamy tandoori sauce and crispy lettuce topping.'
+        var hh3 = document.getElementById('gm').textContent = '199gm'
+        var bbb = document.getElementById('calo').textContent = '634kCal'
+        var hhhhh = document.getElementById('prote').textContent = '20gm'
+        var hhhhh = document.getElementById('fats').textContent = '37gm'
+        var ddd = document.getElementById('carbs').textContent = '54gm'
+        var gh = document.getElementById('ingred').textContent = 'Quarter pounder bun crown, Shredded lettuce, Tandoori mayo, Spicy paneer patty, Quarter pounder bun heel'
+
+    }
+
+    function fun300() {
+        var img77 = document.getElementById('imgfor')
+        img77.src = 'https://mcdindia.com/wp-content/uploads/2022/01/masala-dosa-burger-1.png'
+        var ttt = document.getElementById('mc1').textContent = 'Dosa Masala Burger®'
+        event.preventDefault()
+        var ttg = document.getElementById('never').textContent = 'A new taste of India.'
+        var hh1 = document.getElementById('golden').textContent = 'Turmeric-spiced mashed potato filling topped with fresh peas. Grilled and placed inside a soft whole wheat bun with a spicy molagapodi chutney mayo.'
+        var hh3 = document.getElementById('gm').textContent = '138gm'
+        var bbb = document.getElementById('calo').textContent = '307kCal'
+        var hhhhh = document.getElementById('prote').textContent = '5.7gm'
+        var hhhhh = document.getElementById('fats').textContent = '12.2gm'
+        var ddd = document.getElementById('carbs').textContent = '43.5gm'
+        var gh = document.getElementById('ingred').textContent = 'Whole wheat bun, Rasam mayo, Dosa masala aloo patty'
+
+    }
+
+    function fun500() {
+        var img21 = document.getElementById('pet3')
+        img21.src = 'https://mcdindia.com/wp-content/uploads/2021/11/princess-barbie.jpg'
+        var dh = document.getElementById('pet6').textContent = 'princess Barbie'
+        var img22 = document.getElementById('pet4')
+        img22.src = 'https://mcdindia.com/wp-content/uploads/2021/11/racer-barbie.jpg'
+        var id = document.getElementById('pet7').textContent = 'Racer Car Barbie'
+        var img22 = document.getElementById('pet5')
+        img22.src = 'https://mcdindia.com/wp-content/uploads/2021/11/twin-mill-hoop.jpg'
+        var id = document.getElementById('pet8').textContent = 'Twin Mill Hoop'
+
+    }
+
+    function fun400() {
+        var img21 = document.getElementById('pet3')
+        img21.src = 'https://mcdindia.com/wp-content/uploads/2021/11/pet-vet-barbie.jpg'
+        var dh = document.getElementById('pet6').textContent = 'princess Barbie'
+        var img22 = document.getElementById('pet4')
+        img22.src = 'https://mcdindia.com/wp-content/uploads/2021/11/princess-barbie.jpg"'
+        var id = document.getElementById('pet7').textContent = 'Racer Car Barbie'
+        var img22 = document.getElementById('pet5')
+        img22.src = 'https://mcdindia.com/wp-content/uploads/2021/11/racer-barbie.jpg'
+        var id = document.getElementById('pet8').textContent = 'Twin Mill Hoop'
+
+
+    }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <img class="pet" src="https://mcdindia.com/wp-content/uploads/2021/11/twin-mill-hoop.jpg" alt="">
+<img class="pet" src="https://mcdindia.com/wp-content/uploads/2021/11/gazella-jump.jpg" alt="">
+<img class="pet" src="https://mcdindia.com/wp-content/uploads/2021/11/twin-mill-hoop.jpg" alt="">
+<img class="pet" src="https://mcdindia.com/wp-content/uploads/2021/11/bone-speeder.jpg" alt=""> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- function fun9() {
+    var aa = document.getElementById('main_h1').textContent = 'value meal foe every budget'
+    var img12 = document.getElementById('mainimg')
+    img12.src = 'https://scontent.cdninstagram.com/v/t51.2885-15/273725043_647720816571871_8147681248340339446_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8ae9d6&_nc_ohc=A4jxVnzAVdQAX9Nwgfn&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AT_pRF4U9HeVCsliXQGvxkSTuE5dyn7iuzHtYjBo6OqtHA&oe=62248CD3'
+} -->
